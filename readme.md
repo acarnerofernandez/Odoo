@@ -95,10 +95,13 @@ El modo desarrollador se activó mediante las dos vías disponibles en Odoo:
 
 Tabla de resolución de incidencias encontradas durante la configuración e interacción en la interfaz de Odoo 19:
 
-| Síntoma / Error                                                              | Causa Raíz                                                                         | Solución Aplicada |
-|------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------| :--- |
-| Bloqueo al activar la app de *Ventas* (el botón se queda en `Installing`).   | Exceso de tiempo de espera.                                                        | Forzado de recarga limpia de caché (`Ctrl + F5`) y reinicio del servicio de Odoo. |
-| Error *"Ya se está haciendo otra acción"* al intentar instalar *Inventario*. | Bloqueo residual en el proceso interno de instalación de dependencias en Odoo.     | Eliminación y re-creación limpia de la base de datos `demo` desde el gestor. |
+
+| Fecha | Síntoma / Error | Causa Raíz | Solución Aplicada |
+| :---: | :--- | :--- | :--- |
+| **11/11/2026** | Bloqueo al activar la app de *Ventas* (el botón se queda en `Installing`). | Exceso de tiempo de espera (*timeout*) en la petición del navegador/servidor. | Forzado de recarga limpia de caché (`Ctrl + F5`) y reinicio del servicio de Odoo. |
+| **11/11/2026** | Error *"Ya se está haciendo otra acción"* al intentar instalar *Inventario*. | Bloqueo residual en el proceso interno de instalación de dependencias en Odoo. | Eliminación y re-creación limpia de la base de datos `demo` desde el gestor. |
+
+
 
 ---
 
