@@ -1,5 +1,7 @@
 # Manual de Implantación de Odoo 19
 
+Para hacer esta practica hay que tener e cuenta unas cosas, la primera es que hay que crear la bd en el pais de España y el idioma español, ya que así cogerá nuestro sistema de impuestos, por lo que nos automatizara la inserción de los impuestos en los presupuestos.
+Ademas una vez dentro de Odoo en la esquina superior derecha donde sale nuestro usuario hay que seleccionar la empresas de España, esto solo en la version demo.
 
 ## 1. Gestión de Bases de Datos
 
@@ -102,6 +104,6 @@ Tabla de resolución de incidencias encontradas durante la configuración e inte
 
 ## 7. Declaración de Uso de Inteligencia Artificial
 
-
+* **Usado Gemini**
 * **Uso realizado:** Asistencia en la resolución de incidencias como por ejemplo problemas con la instalacion de aplicaciones
 * Utilizado para la creacion del readme, aunque ha sido supervisado previamente
